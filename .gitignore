@@ -1,14 +1,65 @@
+# Prerequisites
+*.d
+
+# Compiled object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Linker and debugger files
+*.ilk
+*.pdb
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+*.so.*
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build directories
 /build/
+/Build/
 /build-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# Temporary files and local tooling
+*.tmp
+*.log
+*.bak
+*.swp
+*.dwo
+vcpkg_installed/
+Testing/
+/.cache/
 /.agents/
 /.codex/
-/.cache/
-compile_commands.json
-*.o
-*.a
-*.log
-.CMakeFiles/
-CMakeCache.txt
 
 # MiniKV 的示例数据库与验收产物纳入版本库；其中的 WAL 使用 .log 后缀。
 !/data/
