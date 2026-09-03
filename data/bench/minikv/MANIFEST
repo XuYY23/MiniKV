@@ -1,0 +1,8 @@
+MINIKV_MANIFEST_V1
+next_file_number=10
+last_sequence=2000
+log_number=9
+sst=2
+sst=4
+sst=6
+sst=8

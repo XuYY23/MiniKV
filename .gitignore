@@ -1,0 +1,17 @@
+/build/
+/build-*/
+/.agents/
+/.codex/
+/.cache/
+compile_commands.json
+*.o
+*.a
+*.log
+.CMakeFiles/
+CMakeCache.txt
+
+# MiniKV 的示例数据库与验收产物纳入版本库；其中的 WAL 使用 .log 后缀。
+!/data/
+!/data/**
+!/testdata/
+!/testdata/**

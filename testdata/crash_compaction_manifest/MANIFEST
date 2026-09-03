@@ -1,0 +1,6 @@
+MINIKV_MANIFEST_V1
+next_file_number=7
+last_sequence=42
+log_number=4
+prev_log_number=0
+sst=6
